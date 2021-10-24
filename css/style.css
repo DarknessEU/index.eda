@@ -455,7 +455,7 @@ body{
 .benefit-card{
     display: flex;
     justify-content: center;
-
+    align-items: center;
     flex-direction: column;
     margin: 15px;
     max-width: 270px;
@@ -472,6 +472,12 @@ body{
 
     padding: 35px;
     text-align: center;
+
+
+}
+.benefit-image{
+    width: 60px;
+    padding-top: 34px;
 
 
 }
