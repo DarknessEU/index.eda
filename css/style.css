@@ -439,6 +439,9 @@ body{
 .social-link{
     margin-left: 20px;
 }
+.section-white{
+    margin-bottom: 202px;
+}
 .section-benefit-title{
     margin-top: 100px;
     margin-bottom: 52px;
@@ -453,10 +456,7 @@ body{
 
 }
 .benefit-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
     margin: 15px;
     max-width: 270px;
     border-radius: 20px;
@@ -469,17 +469,18 @@ body{
     border-radius: 18px;
 }
 .benefit-card-content{
-
-    padding: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 35px;
     text-align: center;
-
-
+    margin-top: 0;
 }
+
 .benefit-image{
     width: 60px;
-    padding-top: 34px;
-
-
+    height: 60px;
+     margin: 30px auto 34px auto;
 }
 .benefit-title{
     font-weight: 500;
@@ -487,6 +488,7 @@ body{
     line-height: 23px;
     margin-bottom: 13px;
     color: #000000;
+    margin: 0;
 }
 .benefit-description{
     font-weight: normal;
